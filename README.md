@@ -1,3 +1,3 @@
-# webpack-template
+# tailwind-template
 
-Webpack template repository
+Tailwind webpack template repository

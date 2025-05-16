@@ -1,5 +1,5 @@
 {
-  "name": "webpack-template",
+  "name": "tailwind-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,16 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sukelully/webpack-template.git"
+    "url": "git+https://github.com/sukelully/tailwind-template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sukelully/webpack-template/issues"
+    "url": "https://github.com/sukelully/tailwind-template/issues"
   },
-  "homepage": "https://github.com/sukelully/webpack-template#readme",
+  "homepage": "https://github.com/sukelully/tailwind-template#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.21",
     "css-loader": "^7.1.2",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.3",
@@ -29,5 +30,11 @@
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.1",
     "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.7",
+    "postcss": "^8.5.3",
+    "postcss-loader": "^8.1.1",
+    "tailwindcss": "^4.1.7"
   }
 }
